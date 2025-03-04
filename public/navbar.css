@@ -469,3 +469,66 @@
   left: 81%;
   top: 1px;
 }
+
+/* top_category_of_the_month_frame */
+
+.top_category_of_the_month_frame {
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+}
+
+.top_category_of_the_month_frame .container {
+  flex-direction: column;
+}
+
+.top_category_of_the_month_frame .top_category_frame {
+  border-bottom: 0px;
+  font-size: 40px;
+  font-weight: 550;
+}
+
+.top_category_of_the_month_frame .product_wrapper_boxes {
+  margin-top: 15px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.top_category_of_the_month_frame .product_wrapper_boxes .product_wrapper_box {
+  width: 190px;
+  height: 210px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 6px;
+}
+
+.product_wrapper_box .top_category_img {
+  margin-left: 8px;
+  width: 150px;
+  height: 160px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product_wrapper_box span {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #03152e;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
