@@ -475,7 +475,7 @@
 .top_category_of_the_month_frame {
   position: relative;
   width: 100%;
-  height: auto;
+  height: 1000px;
 
   display: flex;
   justify-content: center;
@@ -507,6 +507,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   border-radius: 6px;
